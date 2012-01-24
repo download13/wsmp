@@ -1,0 +1,1 @@
+module.exports.MultiplexerServer = require('./lib/wsmp-server.js').MultiplexerServer;
