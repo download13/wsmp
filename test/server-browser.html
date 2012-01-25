@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<script src="../public/wsmp.js"></script>
+<script>
+var ws = new WebSocket('ws://localhost');
+//var mp = new MultiplexerClient(ws);
+
+ws.onmessage = function(e) {
+	console.log(e.data);
+	ws.send(e.data);
+}
+</script>
+</head>
+<body>
+</body>
+</html>

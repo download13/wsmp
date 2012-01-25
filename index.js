@@ -1,1 +1,1 @@
-module.exports.MultiplexerServer = require('./lib/wsmp-server.js').MultiplexerServer;
+module.exports = require('./lib/wsmp.js');
